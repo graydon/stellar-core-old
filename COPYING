@@ -81,3 +81,11 @@ src/lib/util/format.cc and format.h:
   (victor.zverovich@gmail.com)
   Licensed under the 2-clause BSD license
   (http://opensource.org/licenses/BSD-2-Clause)
+
+src/lib/decNumber:
+
+  The DecNumber library,
+  Copyright 2000-2010 IBM Corporation
+  (http://www.ibm.com)
+  Licensed under the ICU license
+  (icu-project.org/license)

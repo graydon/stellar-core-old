@@ -53,8 +53,12 @@ FMT_HDRS = src/clf/BucketList.h src/clf/CanonicalLedgerForm.h src/clf/CLF.h     
 
 BUILT_SOURCES = src/generated/StellardVersion.h src/generated/StellarXDR.h
 
+DECSRC = src/lib/decNumber/decContext.c src/lib/decNumber/decDouble.c \
+         src/lib/decNumber/decQuad.c src/lib/decNumber/decSingle.c
+
 bin_stellard_SOURCES = $(FMT_SRCS) \
                        $(BUILT_SOURCES) \
+                       $(DECSRC) \
                        src/lib/util/getopt_long.c \
                        src/lib/util/format.cc
 
